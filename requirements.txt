@@ -1,0 +1,53 @@
+# Core LLM
+openai>=1.30.0
+
+# LangChain
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+
+# LangGraph
+langgraph>=0.2.0
+
+# Search Tool
+tavily-python>=0.5.0
+
+# Web Scraping
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+lxml>=5.2.2
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Data Validation
+pydantic>=2.8.2
+
+# Async Support
+aiohttp>=3.10.5
+httpx>=0.27.0
+
+# Logging & Utilities
+rich>=13.7.1
+tenacity>=9.0.0
+
+# Optional Data Handling
+pandas>=2.2.2
+numpy>=2.1.0
+
+# Token Counting
+tiktoken>=0.7.0
+
+# JSON Handling
+orjson>=3.10.7
+
+# Type Hints
+typing-extensions>=4.12.2
+
+# FastAPI Backend
+fastapi>=0.115.0
+uvicorn>=0.30.6
+
+# For React Integration
+python-multipart>=0.0.9
