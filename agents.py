@@ -1,6 +1,10 @@
+#langchain.agents → used to create your Search Agent and Reader Agent
 from langchain.agents import create_agent
+##langchain_google_genai → connects LangChain with Google Gemini.
 from langchain_google_genai import ChatGoogleGenerativeAI
+##langchain_core.prompts → used to create prompts
 from langchain_core.prompts import ChatPromptTemplate
+#langchain_core.output_parsers → used to convert the AI's output into a usable string
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search, scrape_url
 from dotenv import load_dotenv
